@@ -15,6 +15,7 @@ nav ul{
 }
 .navigation a:hover{
     color:#7b5d43;
+    font-size: 30px;
 }
 
 nav ul div a{
@@ -30,7 +31,7 @@ nav ul div a{
 }
 body{
     background:#eee2dd;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 5%;
 }
 

@@ -37,7 +37,6 @@ body{
 
 main{
     background:#d0b8ac;
-    /* border: 3px solid #3a2e21; */
     color: #614827;
     padding: 5%;
 }
@@ -88,6 +87,7 @@ nav{
 }
 figure{
     margin: 0;
+    width: 100fr;
 }
 figure > img{
     width: 100%;
@@ -153,8 +153,5 @@ figure > img{
     }
     p{
         font-size: 15px;
-    }
-    figure{
-        width: 50%;
     }
 }

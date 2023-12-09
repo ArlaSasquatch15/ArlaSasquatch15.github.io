@@ -1,0 +1,33 @@
+li{
+    word-break: break-word;
+}
+h1{
+    font-size: 28px;
+    padding-top: 15px;
+    bottom: 60px;
+}
+div{
+    font-size: 16px;
+}
+#refmain{
+    padding: 0;
+}
+#reflinks{
+    margin:20px;
+}
+#page_buttons{
+    margin: 20px;
+}
+div li {
+    padding:15px;
+}
+#refs{
+    border-bottom: 2px solid #33210A;
+    margin: 30px;
+}
+
+@media screen and (min-width:1000px) {
+    h1{
+        font-size: 30px;
+    }
+}

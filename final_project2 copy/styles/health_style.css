@@ -1,0 +1,35 @@
+.health_grid{
+    display: grid;
+    grid-template-columns: 100fr;
+    gap: 15px;
+}
+h1{
+    grid-column: 1;
+}
+#text1{
+    grid-column: 1;
+}
+#health_mocap{
+    grid-column: 1;
+}
+
+@media screen and (min-width:1000px) {
+    #health_mocap{
+        width: 100%;
+        grid-column: 1;
+    }
+    #header{
+        margin: 20px;
+    }
+    #text1{
+        grid-column: 2;
+    }
+    .health_grid{
+        grid-template-columns: 30fr 40fr;
+        column-gap: 10%;
+    }
+    h1{
+        margin-top: 0;
+    }
+    
+}

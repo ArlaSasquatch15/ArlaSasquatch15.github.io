@@ -73,7 +73,7 @@ h1{
     border-radius: 30px;
     transition-duration: 0.5s;
 }
-#button:hover{
+#previous_button:hover, #button:hover{
     background-color: #33210A;
     color:white;
 }

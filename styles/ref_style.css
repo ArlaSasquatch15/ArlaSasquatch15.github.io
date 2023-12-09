@@ -10,13 +10,17 @@ div{
     font-size: 16px;
 }
 #refmain{
-    padding: 0;
+    display: grid;
+    grid-template-columns: 40fr 30fr;
+
 }
 #reflinks{
     margin:20px;
+    grid-column: 1;
 }
 #page_buttons{
     margin: 20px;
+    grid-column: span 2;
 }
 div li {
     padding:15px;
@@ -24,10 +28,46 @@ div li {
 #refs{
     border-bottom: 2px solid #33210A;
     margin: 30px;
+    grid-column: 1;
 }
 
-@media screen and (min-width:1000px) {
+
+@media screen and (min-width:350px){
+    main{
+        position: relative;
+        isolation: isolate;
+    }
+    main::after{
+        content: '';
+        background: #d0b8ac;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        border-top: 30vh solid #f9efea;
+        border-left: 40vw solid #d0b8ac;
+        width: 0;
+    }
+}
+
+@media screen and (min-width:1000px){
     h1{
         font-size: 30px;
     }
+    main{
+        position: relative;
+        isolation: isolate;
+    }
+    main::after{
+        content: '';
+        background: #d0b8ac;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        border-top: 30vh solid #f9efea;
+        border-left: 40vw solid #d0b8ac;
+        width: 0;
+    }
 }
+

@@ -20,6 +20,7 @@ h2{
 #star_wars{
     width:100%;
     grid-column: 1;
+    grid-row: 1;
 }
 
 #alita{
@@ -36,6 +37,7 @@ h2{
     align-items: start;
     flex-direction: column;
     width: 100%;
+    grid-row: 3;
 }
 
 h2{

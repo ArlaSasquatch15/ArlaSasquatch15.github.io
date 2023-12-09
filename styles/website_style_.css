@@ -87,7 +87,7 @@ nav{
 }
 figure{
     margin: 0;
-    width: 100fr;
+    width: 100%;
 }
 figure > img{
     width: 100%;
@@ -149,7 +149,11 @@ figure > img{
         flex-wrap: wrap;
         flex-direction: column;
         gap: 10px;
+        justify-content: flex-start;
         align-items: flex-end;
+        height: 100vh;
+        background:#d0b8ac;
+        transition: 0.5s;
     }
     p{
         font-size: 15px;

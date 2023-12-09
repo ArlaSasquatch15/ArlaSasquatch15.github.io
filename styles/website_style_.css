@@ -48,17 +48,18 @@ h1{
     justify-content: right;
     border: 0;
     padding: 0;
-    width: 45px;
+    width: 50px;
     cursor: pointer;
     display: none;
 }
 #hamburger section{
     border: 3px;
-    height: 7px;
+    height: 8px;
     width: 100%;
     margin: 5px 0;
-    background-color: #3a2e21;
+    background: #8b817c;
 }
+
 
 #button, #previous_button{
     background-color: #85796A;

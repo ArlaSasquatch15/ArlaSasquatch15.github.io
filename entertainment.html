@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Movies</title>
+
+        <link href="styles/movies_style.css" rel="stylesheet">
+        <link href="styles/website_style_navborder.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+        <header>
+            <aside id="hamburger">
+                <section></section>
+                <section></section>
+                <section></section>
+            </aside>
+
+            
+        </header>
+        <nav>
+            <ul class="navigation">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="intro.html">Motion Capture</a></div>
+                <div><a href="entertainment.html">Entertainment</a></div>
+                <div><a href="health.html">Health Industry</a></div>
+                <div><a href="sports.html">Sports</a></div>
+                <div><a href="references.html">References</a></div>
+            </ul>
+        </nav>
+        <main>
+            <div class="movie_grid">
+                <figure id="movie_mocap">
+                    <img src="images/movies_images/mocap_in_movies.jpeg" alt="image of Planet of The Apes actor being turned into a monkey">
+                </figure>
+                <section id="text1">
+                    <h1>Mocap in Movies</h1>
+                    <p>Many movies utilize mocap to create their action-packed adventures. Since none of us can be born with superpowers, a computer is the next best thing.
+                        Actors wear suits with markers that reflect infrared light to cameras. These suits make data points for animators to make character models.
+                        For example, in the hit Avatar movies, Cameron added small camera rigged to helmet to solely capture facial expressions in a 
+                        method called performance capture. Peformance capture is the process of recording an actor doing the motions of the soon-to-be animated character.</p> 
+                    <p style="padding-bottom: 50px; border-bottom: 2.5px solid #3a2e21;">The performance capture assists the animators by giving them a model to work off of and make the design as realistic as possible.
+                        Virtual camera renders actors as virtual characters and environment in real time with the usage of the swing camera, 
+                        a piece of technology Cameron created for his otherworldly movie creations.</p>
+                </section>
+                    <figure id="DBH_mocap">
+                        <img src="images/video_games_images/DBH_mocap.jpeg" alt="image of mocap used to create the video game Detroit Become Human">
+                    </figure>
+                    <section id="text2">
+                            <h1>Mocap in Video Games</h1>
+                            <p>Motion capture technology can also work through a markerless method, 
+                                where the animators instead rely on depth-sensitive cameras to track the actor's movements, 
+                                along with extra software compared to that needed for marker-based methods.
+                                Despite the extra software, the markerless method is often seen as a more convenient method, 
+                                though it is generally not as accurate, especially for fine movements.</p>
+                    </section>
+
+            </div>
+            <div style="display:flex; justify-content: space-between;">
+                <a href="video_games.html"><button type="button" id="previous_button">Previous</button></a>
+                <a href="health.html"><button type="button" id="button">Next Page</button></a>
+            </div>
+               
+        </main>
+        <footer>
+            &copy; Aria Shepard - Winter 2023
+        </footer> 
+        <script src="javascript.js"></script>
+    </body>
+</html>

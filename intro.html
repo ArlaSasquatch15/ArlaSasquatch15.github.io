@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Innovation of Motion Capture</title>
+       
+        <link href="styles/intro_style.css" rel="stylesheet">
+        <link href="styles/website_style_navborder.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <aside id="hamburger">
+                <section></section>
+                <section></section>
+                <section></section>
+            </aside>
+        </header>
+        
+        <nav>
+            <ul class="navigation">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="intro.html">Motion Capture</a></div>
+                <div><a href="entertainment.html">Entertainment</a></div>
+                <div><a href="health.html">Health Industry</a></div>
+                <div><a href="sports.html">Sports</a></div>
+                <div><a href="references.html">References</a></div>
+            </ul>
+        </nav>
+        <main>
+            <div class="mocap_grid">
+                <section id="text1">
+                    <h1>Before Mo-Cap</h1>
+                        <p>Before mocap, animators used rotoscoping, a process which recorded actors as if live action for animators to use footage. 
+                            Compared to hand-drawing everything, rotoscoping siginificantly sped up the animation process.
+                            The process allowed filmmakers to develpo complex action scenes and add other-wise impossible features to live-action films.
+                            Filmmakers used rotoscoping to extract an element from a specific scene and place it on a different background.</p> 
+                        <p style="padding-bottom: 50px; border-bottom: 2.5px solid #3a2e21;">That footage is projected onto an animation table and traced frame-by-frame on animation cells that were photographed frame-by-frame to create animation.
+                            Films such as George Lucas' "Star Wars: Episode IV -- A New Hope" used rotoscoping to create the lightsabers. 
+                            Artists used rotoscoping to give the lightsabers their unique light effect.
+                            When the technique was adopted by Walt Disney, founder of the entertainment industry Disney, 
+                            he used rotoscoping to get a sense of the character's movement and facial expressions rather than simply tracing over live-action footage.
+                            This technique was used in the animated films "Snow White and the Seven Dwarves" and "Alice in Wonderland". 
+                            The studio also rotoscoped past animations in evidence of the efficiency of the tecnique compared to the old days of hand-drawing every frame.</p>
+                </section>
+                <section id="text2">
+                    <h1>Mo-Cap Improvements</h1>
+                        <p>Mocap captures the characteristics of a physical system's dynamic motion from video, regardless of rendering configuration or image differences.
+                            The system sees how differences in rendering can affect texture, light, and background.</p>
+                        <p style="padding-bottom: 50px; border-bottom: 2.5px solid #3a2e21;">One such innovation is the trained neural network pipe devloped by researchers from MIT and IBM, created to avoids this issue, 
+                            with the ability to infer the state of the environment and the actions happening, the physical characteristics of the object 
+                            or person of interest (system), and its control parameters. Their methodology allows for imitation learning in predicting and 
+                            reproducing the trajectory of real-world objects from video.
+                            </p>
+                    <h1>Mo-Cap Future</h1>
+                        <p>The next leap forward for motion capture is the creation of truly 'flip the switch' systems, according to Oxford Metrics. 
+                            These systems, made possible through optical and inertial trackers, artificial intelligence and machine learning, 
+                            can be turned on and work instantly, without the need for calibration of motion capture markers.</p>
+                </section>
+                <figure id="star_wars">
+                    <img src="images/intro_images/before_mocap.png" alt="image of rotoscoped Star Wars lightsabers" id="rotoscope">
+                </figure>
+                <figure id="one">
+                    <figure id="alita">
+                        <img src="images/intro_images/mocap_improvement.png" alt="image of Alita actress in mocap gear" id="actress">
+                    </figure>
+                    <figure id="alita2">
+                        <img src="images/intro_images/mocap_improvement2.png" alt="image of Alita mocap" id="actress2">
+                    </figure>
+                </figure>
+            </div>
+            <div id="next_page" style="display:flex; justify-content: space-between; grid-column: 1;">
+                <a href="video_games.html"><button type="button" id="button">Next Page</button></a>
+                <a href="entertainment.html"><button type="button" id="button">Next Page</button></a>
+            </div>
+        </main>
+        <footer>
+            &copy; Aria Shepard - Winter 2023
+        </footer>
+        <script src="javascript.js"></script>
+    </body>
+</html>

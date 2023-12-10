@@ -15,7 +15,7 @@ nav ul{
     color:#7b5d43;
     font-size: 30px;
 }
-nav ul div a{
+nav ul li a{
     display: flex;
     text-align: center;
     padding: 14px 16px;
@@ -56,16 +56,17 @@ h1{
     margin: 5px 0;
     background: #8b817c;
 }
+
 #button, #previous_button{
     background-color: #85796A;
     border:none;
     color:white;
     margin-top: 90px;
-    padding: 12px 28px;
+    padding: 12px 40px;
     text-decoration: none;
     text-align: center;
     display: inline-block;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 30px;
     transition-duration: 0.5s;
 }
@@ -123,7 +124,7 @@ p{
     h3{
         font-size: 24px;
     }
-    nav ul div{
+    nav ul li{
         font-size: 14px;
     }
     #hamburger{
@@ -169,7 +170,7 @@ p{
     h3{
         font-size: 24px;
     }
-    nav ul div{
+    nav ul li{
         font-size: 14px;
     }
     #hamburger{

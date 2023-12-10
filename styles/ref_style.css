@@ -11,7 +11,7 @@ div{
 }
 #refmain{
     display: grid;
-    grid-template-columns: 40fr 30fr;
+    grid-template-columns: 100fr;
 
 }
 #reflinks{
@@ -33,6 +33,11 @@ div li {
 
 
 @media screen and (min-width:350px){
+    #refmain{
+        display: grid;
+        grid-template-columns: 55fr 15fr;
+    
+    }
     main{
         position: relative;
         isolation: isolate;
@@ -50,7 +55,40 @@ div li {
     }
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) and (orientation:landscape){
+    #refmain{
+        grid-template-columns: 60fr 10fr;
+    }
+    #page_buttons{
+        grid-column: span 2;
+    }
+    h1{
+        font-size: 30px;
+    }
+    main{
+        position: relative;
+        isolation: isolate;
+    }
+    main::after{
+        content: '';
+        background: #d0b8ac;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        border-top: 30vh solid #f9efea;
+        border-left: 40vw solid #d0b8ac;
+        width: 0;
+    }
+}
+
+@media screen and (min-width:1000px) and (orientation:portrait){
+    #refmain{
+        grid-template-columns: 40fr 30fr;
+    }
+    #page_buttons{
+        grid-column: span 2;
+    }
     h1{
         font-size: 30px;
     }

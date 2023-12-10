@@ -112,7 +112,7 @@ figure > img{
 
 }
 
-@media screen and (min-width:300px) and (max-width:800px){
+@media screen and (min-width:300px) and (max-width:800px) and (orientation:landscape){
     header{
         display: flex;
         justify-content: right;
@@ -149,7 +149,56 @@ figure > img{
     .navigation{
         flex-wrap: wrap;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
+        justify-content: flex-start;
+        align-items: flex-end;
+        height: 100vh;
+        background:#d0b8ac;
+        transition: 0.5s;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:800px) and (orientation:portrait){
+    header{
+        display: flex;
+        justify-content: right;
+    }
+    header, nav{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    nav ul div{
+        font-size: 14px;
+    }
+    #hamburger{
+        display: block;
+    }
+    nav{
+        height: 0;
+        padding: 0;
+        overflow: hidden;
+        display: none;
+        transition: display 0.5s;
+        transition: height 0.5s;
+    }
+    nav ul li{
+        flex-basis: 100%;
+    }
+    nav.shown{
+        height: auto;
+        display: block;
+    }
+
+    .navigation{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 45px;
         justify-content: flex-start;
         align-items: flex-end;
         height: 100vh;

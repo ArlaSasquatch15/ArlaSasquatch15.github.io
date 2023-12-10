@@ -17,6 +17,9 @@ div{
 #reflinks{
     margin:20px;
     grid-column: 1;
+    color: #3a2e21;
+    font-size: 15px;
+    margin-top: 0;
 }
 #page_buttons{
     margin: 20px;
@@ -57,7 +60,10 @@ div li {
 
 @media screen and (min-width:1000px) and (orientation:landscape){
     #refmain{
-        grid-template-columns: 60fr 10fr;
+        grid-template-columns: 40fr 10fr;
+    }
+    #reflinks{
+        font-size: 20px;
     }
     #page_buttons{
         grid-column: span 2;

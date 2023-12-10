@@ -1,4 +1,3 @@
-
 header{
     margin-top: 5%;
 }
@@ -7,7 +6,6 @@ nav ul{
     margin:0;
     padding: 0;
 }
-
 .navigation{
     display: flex;
     justify-content: space-evenly;
@@ -17,14 +15,13 @@ nav ul{
     color:#7b5d43;
     font-size: 30px;
 }
-
 nav ul div a{
     display: flex;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     justify-content: flex-start;
-    color: #614827;
+    color: #3a2e21;
     font-weight: bold;
     font-size: 25px;
     text-transform: uppercase;
@@ -59,8 +56,6 @@ h1{
     margin: 5px 0;
     background: #8b817c;
 }
-
-
 #button, #previous_button{
     background-color: #85796A;
     border:none;
@@ -81,7 +76,6 @@ h1{
 footer{
     margin-top: 50px;
 }
-
 nav{
     padding-bottom: 10px;
     width:100%;
@@ -92,6 +86,10 @@ figure{
 }
 figure > img{
     width: 100%;
+}
+p{
+    color: #3a2e21;
+    font-size: 15px;
 }
 
 @media screen and (min-width:1000px) {
@@ -107,9 +105,8 @@ figure > img{
     }
     h1{
         margin-top: 0;
-        font-size: 30px;
+        font-size: 35px;
     }
-
 }
 
 @media screen and (min-width:300px) and (max-width:800px) and (orientation:landscape){
@@ -155,9 +152,6 @@ figure > img{
         height: 100vh;
         background:#d0b8ac;
         transition: 0.5s;
-    }
-    p{
-        font-size: 15px;
     }
 }
 

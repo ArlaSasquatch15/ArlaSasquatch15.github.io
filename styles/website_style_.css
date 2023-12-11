@@ -20,7 +20,7 @@ nav ul li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    justify-content: flex-start;
+    justify-content: flex-end;
     color: #3a2e21;
     font-weight: bold;
     font-size: 25px;
@@ -147,12 +147,13 @@ p{
     }
 
     .navigation{
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-direction: column;
         gap: 20px;
+        padding-bottom: 50px;
         justify-content: flex-start;
         align-items: flex-end;
-        height: 100vh;
+        height: 150vh;
         background:#d0b8ac;
         transition: 0.5s;
     }
@@ -193,9 +194,10 @@ p{
     }
 
     .navigation{
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-direction: column;
-        gap: 45px;
+        gap: 20px;
+        padding-bottom: 50px;
         justify-content: flex-start;
         align-items: flex-end;
         height: 100vh;
